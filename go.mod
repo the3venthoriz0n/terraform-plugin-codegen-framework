@@ -1,4 +1,4 @@
-module github.com/the3venthoriz0n/terraform-plugin-codegen-framework
+module github.com/hashicorp/terraform-plugin-codegen-framework
 
 go 1.22.7
 
