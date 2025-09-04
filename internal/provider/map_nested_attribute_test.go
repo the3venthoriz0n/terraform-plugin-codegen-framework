@@ -8,13 +8,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform-plugin-codegen-spec/code"
-	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
-	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/code"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/provider"
+	specschema "github.com/jjjhhhlll/terraform-plugin-codegen-spec/schema"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
-	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/convert"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/model"
+	generatorschema "github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 func TestGeneratorMapNestedAttribute_New(t *testing.T) {

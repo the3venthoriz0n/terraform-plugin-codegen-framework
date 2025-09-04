@@ -6,10 +6,10 @@ package resource
 import (
 	"bytes"
 
-	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
+	specschema "github.com/jjjhhhlll/terraform-plugin-codegen-spec/schema"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/convert"
+	generatorschema "github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 type NestedAttributeObject struct {

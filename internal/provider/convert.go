@@ -6,10 +6,10 @@ package provider
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
-	"github.com/hashicorp/terraform-plugin-codegen-spec/spec"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/provider"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/spec"
 
-	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	generatorschema "github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 func NewSchemas(spec spec.Specification) (map[string]generatorschema.GeneratorSchema, error) {

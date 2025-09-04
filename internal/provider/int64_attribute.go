@@ -7,11 +7,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-codegen-spec/provider"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/provider"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/convert"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/model"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 type GeneratorInt64Attribute struct {

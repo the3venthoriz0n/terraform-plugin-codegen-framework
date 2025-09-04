@@ -10,7 +10,7 @@ The generator currently supports outputting:
 
  * **[Schema](https://developer.hashicorp.com/terraform/plugin/framework/handling-data/schemas)**: With all framework functionality, such as validators and plan modifiers, and no limits on nesting.
  * **[Data Model Types](https://developer.hashicorp.com/terraform/plugin/framework/handling-data/accessing-values#get-the-entire-configuration-plan-or-state)**: With conversion to external Go types, if provided in the specification, such as API SDK types.
- 
+
 Over time, it is anticipated that the Provider Code Specification and this generator will be further enhanced to support CRUD logic.
 
 ## Documentation
@@ -21,15 +21,15 @@ Full usage info and examples live on the HashiCorp developer site: https://devel
 
 ### Installation
 
-You install a copy of the binary manually from the [releases](https://github.com/hashicorp/terraform-plugin-codegen-framework/releases) tab, or install via the Go toolchain:
+You install a copy of the binary manually from the [releases](https://github.com/the3venthoriz0n/terraform-plugin-codegen-framework/releases) tab, or install via the Go toolchain:
 
 ```shell
-go install github.com/hashicorp/terraform-plugin-codegen-framework/cmd/tfplugingen-framework@latest
+go install github.com/the3venthoriz0n/terraform-plugin-codegen-framework/cmd/tfplugingen-framework@latest
 ```
 
 ### Generate Command
 
-The generate command uses a specification](https://github.com/hashicorp/terraform-plugin-codegen-spec) as input and generates Terraform Provider code as output.
+The generate command uses a specification](https://github.com/jjjhhhlll/terraform-plugin-codegen-spec) as input and generates Terraform Provider code as output.
 
 For example:
 

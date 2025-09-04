@@ -6,10 +6,10 @@ package convert
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-codegen-spec/code"
-	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/code"
+	specschema "github.com/jjjhhhlll/terraform-plugin-codegen-spec/schema"
 
-	generatorschema "github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	generatorschema "github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 const defaultFloat64Import = "github.com/hashicorp/terraform-plugin-framework/resource/schema/float64default"

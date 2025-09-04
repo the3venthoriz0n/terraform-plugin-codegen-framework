@@ -8,11 +8,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-codegen-spec/datasource"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/datasource"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/convert"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/model"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/convert"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/model"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 type GeneratorListNestedBlock struct {

@@ -4,7 +4,7 @@
 package schema
 
 import (
-	"github.com/hashicorp/terraform-plugin-codegen-spec/code"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/code"
 )
 
 const (

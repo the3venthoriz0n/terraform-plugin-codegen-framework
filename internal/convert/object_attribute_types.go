@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-codegen-spec/code"
-	specschema "github.com/hashicorp/terraform-plugin-codegen-spec/schema"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/code"
+	specschema "github.com/jjjhhhlll/terraform-plugin-codegen-spec/schema"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/schema"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/schema"
 )
 
 type ObjectAttributeTypes struct {

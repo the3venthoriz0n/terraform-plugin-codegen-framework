@@ -2,12 +2,10 @@ module github.com/the3venthoriz0n/terraform-plugin-codegen-framework
 
 go 1.22.7
 
-replace github.com/hashicorp/terraform-plugin-codegen-spec => github.com/jjjhhhlll/terraform-plugin-codegen-spec v0.2.1
-
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/cli v1.1.7
-	github.com/hashicorp/terraform-plugin-codegen-spec v0.2.0
+	github.com/jjjhhhlll/terraform-plugin-codegen-spec v0.2.1
 	github.com/mattn/go-colorable v0.1.14
 )
 

@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	"github.com/hashicorp/cli"
-	"github.com/hashicorp/terraform-plugin-codegen-spec/spec"
+	"github.com/jjjhhhlll/terraform-plugin-codegen-spec/spec"
 
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/input"
-	"github.com/hashicorp/terraform-plugin-codegen-framework/internal/validate"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/input"
+	"github.com/the3venthoriz0n/terraform-plugin-codegen-framework/internal/validate"
 )
 
 type GenerateAllCommand struct {
